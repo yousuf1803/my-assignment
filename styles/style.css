@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Nav Style */
+nav{
+max-width: 1140px;
+height: 151px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-tittle{
+   max-width: 99px; 
+   height: 51px;
+   font-weight:Black;
+   font-size: 34px;
+   color: rgba(78, 71, 255, 1);
+}
+.nav-button{
+   width:132px;
+   height:48px; 
+   font-weight:bold;
+   font-size: 20px;
+   color:#FFFFFF;
+   background-color:#4E47FF;
+   border-radius: 6px;
+   border: none;
+   cursor: pointer;  
+}
+.nav-button:hover{
+    background-color:rgb(240, 240, 3);
+    color: black;   
+}
+.nav-button:active{
+    opacity: 0.6;
+}
