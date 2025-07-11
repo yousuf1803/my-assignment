@@ -14,6 +14,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* This is header section */
 header{
   max-width: 1440px;
   height:698px;
@@ -94,3 +95,60 @@ justify-content: space-between;
 .banner-button:active{
     opacity: 0.6;
 }
+/* This is main section */
+/* Action section style */
+.action{
+  margin-top: 104px;
+  margin-bottom: 128px;
+   
+}
+.action-style{
+  max-width: 1140px;
+  height: 346px;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.action-tittle{
+   width:517px;
+   height:49px; 
+   font-weight:bold;
+   font-size:42px;
+   color:#252432;
+   margin-bottom: 24px;
+}
+.action-sub-tittle{
+  width:517px;
+   height:60px; 
+   font-size:24px;
+   color:#252432;
+   margin-bottom: 18px;
+}
+.action-button{
+  width:229px;
+   height:48px; 
+   font-weight:bold;
+   font-size: 16px;
+   color:#FFFFFF;
+   background-color:#4E47FF;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer; 
+   padding:12px 36px; 
+}
+.action-button:hover{
+    background-color:rgb(240, 240, 3);
+    color: black;   
+}
+.action-button:active{
+    opacity: 0.6;
+}
+.action-style img{
+  width:403px;
+  height:328px;
+  border-radius: 48px;
+}
+
