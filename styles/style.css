@@ -192,4 +192,78 @@ justify-content: space-between;
    color:rgba(0, 0, 0, 0.5);
   
 }
+/* Users Feedback Section */
+
+.users-feedback{
+  margin:126px auto;
+  max-width:1140px;
+  height: 353px;
+ 
+}
+.section-tittle{
+  width:1140px;
+   height:49px;
+   font-weight: bold; 
+   font-size:42px;
+   height:24px; 
+   color:rgba(37, 36, 50, 1);
+   text-align: center;
+   margin-bottom:80px;
+}
+.star-icon{
+ margin-right: 6px;
+ margin-bottom:16px;
+   
+}
+.user-review{
+  width:310px;
+   height:160px;
+   padding:24px;
+   border-radius:14px;
+  color: white;
+   border:1px solid rgba(179, 179, 179, 1);
+
+}
+.user-review-tittle{
+  width:318.67px;
+   height:44px;
+   color: black;
+  
+  
+}
+.user-review-sub-tittle{
+  width:220px;
+   height:29px;
+   color: black;
+   font-size:12px;
+   margin-top: -10px;
+   margin-bottom:24px;
+}
+.reviewer{
+  width:40px;
+   height:40px;
+   border-radius:50%;
+}
+.reviewer-name{
+  width: 266.7px;
+  height: 22px;
+  color: rgba(117, 117, 117, 1);
+  font-size:20px;
+}
+.review-date{
+  width: 266.7px;
+  height: 16px;
+  color:rgba(179, 179, 179, 1);
+  font-size:16px;
+}
+.reviewer-information{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.users-review-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
 
