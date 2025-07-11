@@ -14,6 +14,14 @@
   font-weight: <weight>;
   font-style: normal;
 }
+header{
+  max-width: 1440px;
+  height:698px;
+  background-image: url('../images/Assets/Hero-bg.png');
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+}
 /* Nav Style */
 nav{
 max-width: 1140px;
@@ -46,5 +54,43 @@ justify-content: space-between;
     color: black;   
 }
 .nav-button:active{
+    opacity: 0.6;
+}
+/* Banner Styles */
+.banner-section{
+  max-width:905px;
+  height: 237px;
+  padding: 152px 267.5px 152px 267.5px;
+ text-align: center; 
+ justify-content: center;
+}
+.banner-tittle{
+  max-width: 905px;
+  height: 152px;
+  font-weight: bold;
+  font-size:65px;
+  color: #252432;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.banner-button{
+   width:174px;
+   height:48px; 
+   font-weight:bold;
+   font-size: 16px;
+   color:#FFFFFF;
+   background-color:#4E47FF;
+   border-radius: 6px;
+   border: none;
+   cursor: pointer;
+   margin-top: 8px;
+   text-align: center;
+
+   
+}
+  .banner-button:hover{
+    background-color:rgb(240, 240, 3);
+    color: black; }  
+.banner-button:active{
     opacity: 0.6;
 }
