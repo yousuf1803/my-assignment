@@ -151,4 +151,45 @@ justify-content: space-between;
   height:328px;
   border-radius: 48px;
 }
+/* Productive Users Style */
+.productive-users{
+  max-width: 1140px;
+  height: 306px;
+  margin:0 auto;
+  background-color:rgba(78, 71, 255, 0.1) ;
+  border-radius: 24px;
+  
+}
+
+
+.users-container{
+  display: flex;
+  justify-content: space-around;
+  padding-left:124px;
+  padding-right: 124px;
+  padding-bottom: 50px;
+  }
+.users-tittle{
+ padding-top:50px;
+   font-weight:bold;
+   font-size:38px;
+   color:#252432;
+   text-align: center; 
+   margin-bottom:50px; 
+}
+.user-tittle{
+  width:162px;
+   height:97px; 
+   font-weight:bold;
+   font-size:85px;
+   color:rgba(78, 71, 255, 1);
+  
+}
+.user-sub-tittle{
+  width:170px;
+   height:24px; 
+   font-size:20px;
+   color:rgba(0, 0, 0, 0.5);
+  
+}
 
