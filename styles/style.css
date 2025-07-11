@@ -274,13 +274,20 @@ align-items: center;
   height:632px;
   display: flex;
   justify-content: space-between;
+
   
 }
 .touch-left{
-  width: 50%; 
+
+  padding-top: 200p;
+  padding-bottom: 200px;
+  width:48%;
+margin-top: 230px;
 }
+
+
 .touch-right{
-  width: 50%;
+
 }
 .touch-tittle{
   width:528px;
@@ -292,5 +299,64 @@ align-items: center;
 .touch-form{
   width:497px;
   height:490px;
+  padding-top:71
+  padding-bottom:71px;
+  padding-right:71px;
+
 }
+form label{
+  display: block;
+  height: 22px;
+  width:100%
+  font-weight Medium;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom:2px;
+}
+  
+
+form input[type=email], input[type=text] {
+  padding: 20px 32px;
+background-color: #FFFFFF;
+font-weight: 1px;
+  display: block;
+  height: 35px;
+  width:100%;
+  margin-bottom:8px;
+  border-radius: 10px;
+  font-size:28px;
+  border-width: 1px;
+}
+form textarea{
+  background-color: #FFFFFF;
+  border:none
+font-weight: 1px;
+  display: block;
+  font-size:28px;
+  width: 100%;
+padding: 20px 32px;
+border-radius: 10px;
+margin-bottom:8px;
+}
+.form-button{
+  background-color:#4E47FF;
+  color:#FFFFFF;
+font-weight:bold;
+  display: block;
+  font-size:20px;
+  width:560px;
+  height: 65px;
+padding: 14px 32px;
+border-radius: 10px;
+cursor: pointer;
+border:none
+}
+.form-button:hover{
+    background-color:rgb(240, 240, 3);
+    color: black;   
+}
+.form-button:active{
+    opacity: 0.6;
+}
+
 
