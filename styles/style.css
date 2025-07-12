@@ -2,6 +2,14 @@
     margin:0;
     padding:0;
 }
+ body {
+  background-color: rgba(245, 248, 255, 1);
+
+}
+body footer{
+background-color: white;
+}
+
 
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -16,11 +24,11 @@
   font-style: normal;
 }
 /* This is header section */
-header{
+.header-section{
   max-width: 1440px;
   height:698px;
+  margin:0 auto;
   background-image: url('../images/Assets/Hero-bg.png');
-  margin: 0 auto;
   background-position: center;
   background-size: cover;
 }
@@ -122,11 +130,13 @@ justify-content: space-between;
    margin-bottom: 24px;
 }
 .action-sub-tittle{
-  width:517px;
+  margin-top:-12px ;
+  width:500px;
    height:60px; 
-   font-size:24px;
-   color:#252432;
+   font-size:20px;
+   color:rgba(37, 36, 50, 0.5)
    margin-bottom: 18px;
+   
 }
 .action-button{
   width:229px;
@@ -276,10 +286,8 @@ align-items: center;
   padding-bottom: 71px;
   display: flex;
   gap:100px;
-  align-items: center;
-  
-  background-color: aquamarine;
-  
+  align-items:center;
+    
 }
 .touch-column{
   width:50%
@@ -352,12 +360,15 @@ border:none
     opacity: 0.6;
 }
 /* Footer Section Starts Here */
-footer{
+.end-section{
   max-width: 1440px;
   height: 428px;
+  background-color: white;
+
 margin:0 auto;
 text-align: center;
 position: relative;
+
 
 
 }
